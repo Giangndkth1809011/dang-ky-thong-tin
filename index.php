@@ -1,0 +1,1 @@
+<?php header( &apos;Location: index.html&apos; ) ;  ?>

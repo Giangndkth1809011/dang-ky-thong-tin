@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký thông tin người dùng</title>
+    <link rel="stylesheet" href="../css/Reg.css">
+    <p>ĐĂNG KÝ THÔNG TIN NGƯỜI DÙNG</p>
+</head>
+<body>
+    <div class="main-content">
+        <form action="" method="post" name="reg-form">
+            <div class="row">
+                <div class="col-1">Họ và tên</div>
+                <div class="col-6">
+                    <input type="text" id="name" name="hovaten">
+                </div>
+                <span></span>
+            </div>
+            <div class="row">
+                <div class="col-1">Email</div>
+                <div class="col-6">
+                    <input type="email" name="email">
+                </div>
+                <span></span>
+            </div>
+            <div class="row">
+                <div class="col-1">Phone</div>
+                <div class="col-6">
+                    <input type="text" name="phone">
+                </div>
+                <span></span>
+            </div>
+            <div class="row">
+                <div class="col-1">Giới tính</div>
+                <div class="col-6">
+                    <input type="radio" name="gioitinh" value="nam" checked>Nam<br>
+                    <input type="radio" name="gioitinh" value="nu">Nữ<br>
+                    <input type="radio" name="gioitinh" value="khac">Khác
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">Sở thích</div>
+                <div class="col-6">
+                    <input type="checkbox" name="thethao">Thể thao<br>
+                    <input type="checkbox" name="phim">Phim ảnh<br>
+                    <input type="checkbox" name="sach">Đọc sách<br>
+                    <input type="checkbox" name="amnhac">Âm nhạc<br>
+                    <input type="checkbox" name="khác">Khác<br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">Giới thiệu bản thân</div>
+                <div class="col-6">
+                    <textarea name="gioithieu" rows="10" cols="30"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-6"><input type="button" name="btnSubmit" value="Tạo tài khoản"></div>
+            </div>
+        </form>
+    </div>
+    <script src="../javascript/Reg.js"></script>
+</body>
+</html>
